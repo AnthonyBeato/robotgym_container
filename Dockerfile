@@ -32,6 +32,13 @@ RUN sudo apt-get update && sudo apt-get install -y \
     ros-iron-joint-state-publisher-gui \
  && sudo rm -rf /var/lib/apt/lists/*
 
+ # Instalación de VirtualGL
+RUN wget -q -O virtualgl.deb https://sourceforge.net/projects/virtualgl/files/3.1/virtualgl_3.1_amd64.deb/download \
+&& dpkg -i virtualgl.deb || apt-get install -fy \
+&& rm virtualgl.deb
+
+# Configurar VirtualGL
+RUN /opt/VirtualGL/bin/vglserver_config -config +s +f -t
 
 # Copiar tu espacio de trabajo de simulación al contenedor
 # Asegúrate de que la estructura de directorios en tu máquina local refleje lo que espera el contenedor
@@ -40,12 +47,16 @@ COPY ./simulation_ws /home/${USERNAME}/simulation_ws
 # Cambiar el propietario del espacio de trabajo copiado al usuario no-root
 RUN sudo chown -R ${USERNAME}:${USERNAME} /home/${USERNAME}/simulation_ws
 
-# (Otras instrucciones de configuración que puedas necesitar)
-
-
 COPY entrypoint.sh /entrypoint.sh
 COPY bashrc /home/${USERNAME}/.bashrc
 
-ENTRYPOINT [ "/bin/bash", "/entrypoint.sh" ]
+# Configuración de permisos y entorno
+RUN chmod +x /entrypoint.sh \
+    && chown ${USERNAME}:${USERNAME} /home/${USERNAME}/.bashrc
 
+# Establecer el entorno de trabajo del usuario
+USER $USERNAME
+WORKDIR /home/$USERNAME
+
+ENTRYPOINT ["/entrypoint.sh" ]
 CMD ["bash"]
