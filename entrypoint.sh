@@ -13,5 +13,11 @@ source /opt/ros/iron/setup.bash
 gazebo &
 rviz2 &
 
+export QT_QPA_PLATFORM=vnc
+export AUDIODEV=null
+export ALSA_CONFIG_PATH=/dev/null
+
+
+
 # Mantener el contenedor en ejecución si no se pasan comandos adicionales
 exec "$@"
