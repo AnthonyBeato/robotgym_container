@@ -33,10 +33,20 @@ RUN sudo apt-get update && sudo apt-get install -y \
     ros-iron-joint-state-publisher-gui \
  && sudo rm -rf /var/lib/apt/lists/*
 
- # Instalación de VirtualGL
+
+# Instalar dependencias comunes y necesarias para VirtualGL
+RUN apt-get update && apt-get install -y \
+    libglu1-mesa \
+    mesa-utils \
+    libxv1 \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
+
+# Instalación de VirtualGL sin ocultar errores
 RUN wget -q -O virtualgl.deb https://sourceforge.net/projects/virtualgl/files/3.1/virtualgl_3.1_amd64.deb/download \
-&& dpkg -i virtualgl.deb || apt-get install -fy \
-&& rm virtualgl.deb
+    && dpkg -i virtualgl.deb \
+    && apt-get install -fy \
+    && rm virtualgl.deb
 
 # Configurar VirtualGL
 RUN /opt/VirtualGL/bin/vglserver_config -config +s +f -t
