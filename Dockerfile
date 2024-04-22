@@ -32,6 +32,7 @@ RUN sudo apt-get update && sudo apt-get install -y \
     ros-iron-joint-state-publisher-gui \
  && sudo rm -rf /var/lib/apt/lists/*
 
+
 # Copiar tu espacio de trabajo de simulación al contenedor
 # Asegúrate de que la estructura de directorios en tu máquina local refleje lo que espera el contenedor
 COPY ./simulation_ws /home/${USERNAME}/simulation_ws

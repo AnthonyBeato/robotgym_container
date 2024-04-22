@@ -10,8 +10,8 @@ source /opt/ros/iron/setup.bash
 # source install/setup.bash
 
 # (Aquí irían comandos adicionales para lanzar tu simulación)
-gazebo &
-rviz2 &
+vglrun gazebo &
+vglrun rviz2 &
 
 export QT_QPA_PLATFORM=vnc
 export AUDIODEV=null
