@@ -1,0 +1,17 @@
+/thesis_project/simulation_ws/install/m2wr_description/share/m2wr_description/launch/rsp.launch.py
+/thesis_project/simulation_ws/install/m2wr_description/share/m2wr_description/launch/rsp_sim.launch.py
+/thesis_project/simulation_ws/install/m2wr_description/share/ament_index/resource_index/package_run_dependencies/m2wr_description
+/thesis_project/simulation_ws/install/m2wr_description/share/ament_index/resource_index/parent_prefix_path/m2wr_description
+/thesis_project/simulation_ws/install/m2wr_description/share/m2wr_description/environment/ament_prefix_path.sh
+/thesis_project/simulation_ws/install/m2wr_description/share/m2wr_description/environment/ament_prefix_path.dsv
+/thesis_project/simulation_ws/install/m2wr_description/share/m2wr_description/environment/path.sh
+/thesis_project/simulation_ws/install/m2wr_description/share/m2wr_description/environment/path.dsv
+/thesis_project/simulation_ws/install/m2wr_description/share/m2wr_description/local_setup.bash
+/thesis_project/simulation_ws/install/m2wr_description/share/m2wr_description/local_setup.sh
+/thesis_project/simulation_ws/install/m2wr_description/share/m2wr_description/local_setup.zsh
+/thesis_project/simulation_ws/install/m2wr_description/share/m2wr_description/local_setup.dsv
+/thesis_project/simulation_ws/install/m2wr_description/share/m2wr_description/package.dsv
+/thesis_project/simulation_ws/install/m2wr_description/share/ament_index/resource_index/packages/m2wr_description
+/thesis_project/simulation_ws/install/m2wr_description/share/m2wr_description/cmake/m2wr_descriptionConfig.cmake
+/thesis_project/simulation_ws/install/m2wr_description/share/m2wr_description/cmake/m2wr_descriptionConfig-version.cmake
+/thesis_project/simulation_ws/install/m2wr_description/share/m2wr_description/package.xml

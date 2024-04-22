@@ -1,0 +1,169 @@
+[0.000000] (-) TimerEvent: {}
+[0.000930] (m2wr_description) JobQueued: {'identifier': 'm2wr_description', 'dependencies': OrderedDict()}
+[0.001292] (m2wr_description) JobStarted: {'identifier': 'm2wr_description'}
+[0.097637] (-) TimerEvent: {}
+[0.155845] (m2wr_description) JobProgress: {'identifier': 'm2wr_description', 'progress': 'cmake'}
+[0.166659] (m2wr_description) Command: {'cmd': ['/usr/bin/cmake', '/thesis_project/simulation_ws/src/m2wr_description', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/thesis_project/simulation_ws/install/m2wr_description'], 'cwd': '/thesis_project/simulation_ws/build/m2wr_description', 'env': OrderedDict([('HOSTNAME', '26115dd18268'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/bin/helpers/browser.sh'), ('HOME', '/home/vscode'), ('OLDPWD', '/thesis_project/simulation_ws/src'), ('TERM_PROGRAM_VERSION', '1.88.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-4d19b1e7-ff8b-47d5-a963-761524de76db.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/thesis_project/simulation_ws/install:/thesis_project/dev_ws/install'), ('ROS_DISTRO', 'iron'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-808af4e2-e21c-42e0-b1e4-0b17f9917c83.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('PATH', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/bin/remote-cli:/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '[]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-44eedfd7df.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/thesis_project/dev_ws/install/my_package:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/thesis_project/simulation_ws/build/m2wr_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/thesis_project/dev_ws/install/my_package:/opt/ros/iron')]), 'shell': False}
+[0.197791] (-) TimerEvent: {}
+[0.298619] (-) TimerEvent: {}
+[0.399389] (-) TimerEvent: {}
+[0.500214] (-) TimerEvent: {}
+[0.600918] (-) TimerEvent: {}
+[0.701695] (-) TimerEvent: {}
+[0.802559] (-) TimerEvent: {}
+[0.903374] (-) TimerEvent: {}
+[1.004061] (-) TimerEvent: {}
+[1.040907] (m2wr_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.104249] (-) TimerEvent: {}
+[1.204904] (-) TimerEvent: {}
+[1.305848] (-) TimerEvent: {}
+[1.406725] (-) TimerEvent: {}
+[1.483705] (m2wr_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.506828] (-) TimerEvent: {}
+[1.579546] (m2wr_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.606963] (-) TimerEvent: {}
+[1.707634] (-) TimerEvent: {}
+[1.808279] (-) TimerEvent: {}
+[1.908912] (-) TimerEvent: {}
+[2.009634] (-) TimerEvent: {}
+[2.110674] (-) TimerEvent: {}
+[2.211355] (-) TimerEvent: {}
+[2.312031] (-) TimerEvent: {}
+[2.364104] (m2wr_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.402449] (m2wr_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.403774] (m2wr_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.405268] (m2wr_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.412176] (-) TimerEvent: {}
+[2.500246] (m2wr_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.512358] (-) TimerEvent: {}
+[2.613183] (-) TimerEvent: {}
+[2.714012] (-) TimerEvent: {}
+[2.814820] (-) TimerEvent: {}
+[2.915588] (-) TimerEvent: {}
+[3.016331] (-) TimerEvent: {}
+[3.117069] (-) TimerEvent: {}
+[3.217712] (-) TimerEvent: {}
+[3.258390] (m2wr_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.304648] (m2wr_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.306632] (m2wr_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.308787] (m2wr_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.317884] (-) TimerEvent: {}
+[3.418551] (-) TimerEvent: {}
+[3.486403] (m2wr_description) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[3.518700] (-) TimerEvent: {}
+[3.619357] (-) TimerEvent: {}
+[3.720180] (-) TimerEvent: {}
+[3.821021] (-) TimerEvent: {}
+[3.921632] (-) TimerEvent: {}
+[4.022343] (-) TimerEvent: {}
+[4.123074] (-) TimerEvent: {}
+[4.211128] (m2wr_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[4.223233] (-) TimerEvent: {}
+[4.324146] (-) TimerEvent: {}
+[4.415858] (m2wr_description) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[4.424300] (-) TimerEvent: {}
+[4.525042] (-) TimerEvent: {}
+[4.625649] (-) TimerEvent: {}
+[4.726289] (-) TimerEvent: {}
+[4.827025] (-) TimerEvent: {}
+[4.927796] (-) TimerEvent: {}
+[5.028529] (-) TimerEvent: {}
+[5.129338] (-) TimerEvent: {}
+[5.229973] (-) TimerEvent: {}
+[5.330698] (-) TimerEvent: {}
+[5.431320] (-) TimerEvent: {}
+[5.532075] (-) TimerEvent: {}
+[5.632812] (-) TimerEvent: {}
+[5.733448] (-) TimerEvent: {}
+[5.834095] (-) TimerEvent: {}
+[5.907171] (m2wr_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.14.3 (/opt/ros/iron/share/ament_lint_auto/cmake)\n'}
+[5.934347] (-) TimerEvent: {}
+[6.035108] (-) TimerEvent: {}
+[6.135867] (-) TimerEvent: {}
+[6.236636] (-) TimerEvent: {}
+[6.337397] (-) TimerEvent: {}
+[6.438047] (-) TimerEvent: {}
+[6.538713] (-) TimerEvent: {}
+[6.639411] (-) TimerEvent: {}
+[6.740068] (-) TimerEvent: {}
+[6.840751] (-) TimerEvent: {}
+[6.941405] (-) TimerEvent: {}
+[7.042015] (-) TimerEvent: {}
+[7.142689] (-) TimerEvent: {}
+[7.243668] (-) TimerEvent: {}
+[7.344356] (-) TimerEvent: {}
+[7.445158] (-) TimerEvent: {}
+[7.545927] (-) TimerEvent: {}
+[7.646598] (-) TimerEvent: {}
+[7.747281] (-) TimerEvent: {}
+[7.848023] (-) TimerEvent: {}
+[7.932603] (m2wr_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[7.948172] (-) TimerEvent: {}
+[8.048822] (-) TimerEvent: {}
+[8.149559] (-) TimerEvent: {}
+[8.250253] (-) TimerEvent: {}
+[8.350923] (-) TimerEvent: {}
+[8.451618] (-) TimerEvent: {}
+[8.552343] (-) TimerEvent: {}
+[8.651935] (m2wr_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[8.653155] (-) TimerEvent: {}
+[8.753866] (-) TimerEvent: {}
+[8.854531] (-) TimerEvent: {}
+[8.879918] (m2wr_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[8.954693] (-) TimerEvent: {}
+[9.055463] (-) TimerEvent: {}
+[9.156103] (-) TimerEvent: {}
+[9.256859] (-) TimerEvent: {}
+[9.357634] (-) TimerEvent: {}
+[9.368617] (m2wr_description) StdoutLine: {'line': b'-- Generating done\n'}
+[9.450289] (m2wr_description) StdoutLine: {'line': b'-- Build files have been written to: /thesis_project/simulation_ws/build/m2wr_description\n'}
+[9.457383] (m2wr_description) CommandEnded: {'returncode': 0}
+[9.458969] (-) TimerEvent: {}
+[9.463982] (m2wr_description) JobProgress: {'identifier': 'm2wr_description', 'progress': 'build'}
+[9.474318] (m2wr_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/thesis_project/simulation_ws/build/m2wr_description', '--', '-j12', '-l12'], 'cwd': '/thesis_project/simulation_ws/build/m2wr_description', 'env': OrderedDict([('HOSTNAME', '26115dd18268'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/bin/helpers/browser.sh'), ('HOME', '/home/vscode'), ('OLDPWD', '/thesis_project/simulation_ws/src'), ('TERM_PROGRAM_VERSION', '1.88.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-4d19b1e7-ff8b-47d5-a963-761524de76db.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/thesis_project/simulation_ws/install:/thesis_project/dev_ws/install'), ('ROS_DISTRO', 'iron'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-808af4e2-e21c-42e0-b1e4-0b17f9917c83.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('PATH', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/bin/remote-cli:/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '[]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-44eedfd7df.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/thesis_project/dev_ws/install/my_package:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/thesis_project/simulation_ws/build/m2wr_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/thesis_project/dev_ws/install/my_package:/opt/ros/iron')]), 'shell': False}
+[9.559181] (-) TimerEvent: {}
+[9.649474] (m2wr_description) CommandEnded: {'returncode': 0}
+[9.659294] (-) TimerEvent: {}
+[9.709344] (m2wr_description) JobProgress: {'identifier': 'm2wr_description', 'progress': 'install'}
+[9.732256] (m2wr_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/thesis_project/simulation_ws/build/m2wr_description'], 'cwd': '/thesis_project/simulation_ws/build/m2wr_description', 'env': OrderedDict([('HOSTNAME', '26115dd18268'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/bin/helpers/browser.sh'), ('HOME', '/home/vscode'), ('OLDPWD', '/thesis_project/simulation_ws/src'), ('TERM_PROGRAM_VERSION', '1.88.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-4d19b1e7-ff8b-47d5-a963-761524de76db.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/thesis_project/simulation_ws/install:/thesis_project/dev_ws/install'), ('ROS_DISTRO', 'iron'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-808af4e2-e21c-42e0-b1e4-0b17f9917c83.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('PATH', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/bin/remote-cli:/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '[]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-44eedfd7df.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/thesis_project/dev_ws/install/my_package:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/thesis_project/simulation_ws/build/m2wr_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/thesis_project/dev_ws/install/my_package:/opt/ros/iron')]), 'shell': False}
+[9.746688] (m2wr_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.759457] (-) TimerEvent: {}
+[9.761080] (m2wr_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[9.803318] (m2wr_description) StdoutLine: {'line': b'-- Symlinking: /thesis_project/simulation_ws/install/m2wr_description/share/ament_index/resource_index/package_run_dependencies/m2wr_description\n'}
+[9.859635] (-) TimerEvent: {}
+[9.892869] (m2wr_description) StdoutLine: {'line': b'-- Symlinking: /thesis_project/simulation_ws/install/m2wr_description/share/ament_index/resource_index/parent_prefix_path/m2wr_description\n'}
+[9.959784] (-) TimerEvent: {}
+[9.985778] (m2wr_description) StdoutLine: {'line': b'-- Symlinking: /thesis_project/simulation_ws/install/m2wr_description/share/m2wr_description/environment/ament_prefix_path.sh\n'}
+[10.043109] (m2wr_description) StdoutLine: {'line': b'-- Symlinking: /thesis_project/simulation_ws/install/m2wr_description/share/m2wr_description/environment/ament_prefix_path.dsv\n'}
+[10.059929] (-) TimerEvent: {}
+[10.109667] (m2wr_description) StdoutLine: {'line': b'-- Symlinking: /thesis_project/simulation_ws/install/m2wr_description/share/m2wr_description/environment/path.sh\n'}
+[10.160077] (-) TimerEvent: {}
+[10.163625] (m2wr_description) StdoutLine: {'line': b'-- Symlinking: /thesis_project/simulation_ws/install/m2wr_description/share/m2wr_description/environment/path.dsv\n'}
+[10.221631] (m2wr_description) StdoutLine: {'line': b'-- Symlinking: /thesis_project/simulation_ws/install/m2wr_description/share/m2wr_description/local_setup.bash\n'}
+[10.260231] (-) TimerEvent: {}
+[10.273567] (m2wr_description) StdoutLine: {'line': b'-- Symlinking: /thesis_project/simulation_ws/install/m2wr_description/share/m2wr_description/local_setup.sh\n'}
+[10.326036] (m2wr_description) StdoutLine: {'line': b'-- Symlinking: /thesis_project/simulation_ws/install/m2wr_description/share/m2wr_description/local_setup.zsh\n'}
+[10.360389] (-) TimerEvent: {}
+[10.376424] (m2wr_description) StdoutLine: {'line': b'-- Symlinking: /thesis_project/simulation_ws/install/m2wr_description/share/m2wr_description/local_setup.dsv\n'}
+[10.437373] (m2wr_description) StdoutLine: {'line': b'-- Symlinking: /thesis_project/simulation_ws/install/m2wr_description/share/m2wr_description/package.dsv\n'}
+[10.460555] (-) TimerEvent: {}
+[10.516331] (m2wr_description) StdoutLine: {'line': b'-- Symlinking: /thesis_project/simulation_ws/install/m2wr_description/share/ament_index/resource_index/packages/m2wr_description\n'}
+[10.560690] (-) TimerEvent: {}
+[10.594643] (m2wr_description) StdoutLine: {'line': b'-- Symlinking: /thesis_project/simulation_ws/install/m2wr_description/share/m2wr_description/cmake/m2wr_descriptionConfig.cmake\n'}
+[10.645835] (m2wr_description) StdoutLine: {'line': b'-- Symlinking: /thesis_project/simulation_ws/install/m2wr_description/share/m2wr_description/cmake/m2wr_descriptionConfig-version.cmake\n'}
+[10.660832] (-) TimerEvent: {}
+[10.707419] (m2wr_description) StdoutLine: {'line': b'-- Symlinking: /thesis_project/simulation_ws/install/m2wr_description/share/m2wr_description/package.xml\n'}
+[10.751986] (m2wr_description) CommandEnded: {'returncode': 0}
+[10.761020] (-) TimerEvent: {}
+[10.861775] (-) TimerEvent: {}
+[10.962631] (-) TimerEvent: {}
+[11.064014] (-) TimerEvent: {}
+[11.164828] (-) TimerEvent: {}
+[11.266311] (-) TimerEvent: {}
+[11.367993] (-) TimerEvent: {}
+[11.468638] (-) TimerEvent: {}
+[11.569254] (-) TimerEvent: {}
+[11.669997] (-) TimerEvent: {}
+[11.770596] (-) TimerEvent: {}
+[11.821161] (m2wr_description) JobEnded: {'identifier': 'm2wr_description', 'rc': 0}
+[11.832896] (-) EventReactorShutdown: {}

@@ -1,0 +1,34 @@
+[0.162s] Invoking command in '/thesis_project/simulation_ws/build/m2wr_description': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /thesis_project/simulation_ws/build/m2wr_description -- -j12 -l12
+[0.485s] -- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.020s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.167s] -- Found ament_lint_auto: 0.14.3 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[2.948s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.950s] -- Configured 'flake8' exclude dirs and/or files: 
+[3.186s] -- Added test 'lint_cmake' to check CMake code style
+[3.313s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.432s] -- Added test 'xmllint' to check XML markup files
+[4.611s] -- Configuring done
+[5.195s] -- Generating done
+[5.318s] -- Build files have been written to: /thesis_project/simulation_ws/build/m2wr_description
+[5.413s] Invoked command in '/thesis_project/simulation_ws/build/m2wr_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /thesis_project/simulation_ws/build/m2wr_description -- -j12 -l12
+[5.566s] Invoking command in '/thesis_project/simulation_ws/build/m2wr_description': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /thesis_project/simulation_ws/build/m2wr_description
+[5.584s] -- Install configuration: ""
+[5.607s] -- Execute custom install script
+[5.724s] -- Up-to-date symlink: /thesis_project/simulation_ws/install/m2wr_description/share/m2wr_description/launch/rsp.launch.py
+[5.801s] -- Up-to-date symlink: /thesis_project/simulation_ws/install/m2wr_description/share/m2wr_description/launch/rsp_sim.launch.py
+[5.948s] -- Up-to-date symlink: /thesis_project/simulation_ws/install/m2wr_description/share/ament_index/resource_index/package_run_dependencies/m2wr_description
+[6.072s] -- Up-to-date symlink: /thesis_project/simulation_ws/install/m2wr_description/share/ament_index/resource_index/parent_prefix_path/m2wr_description
+[6.117s] -- Up-to-date symlink: /thesis_project/simulation_ws/install/m2wr_description/share/m2wr_description/environment/ament_prefix_path.sh
+[6.162s] -- Up-to-date symlink: /thesis_project/simulation_ws/install/m2wr_description/share/m2wr_description/environment/ament_prefix_path.dsv
+[6.206s] -- Up-to-date symlink: /thesis_project/simulation_ws/install/m2wr_description/share/m2wr_description/environment/path.sh
+[6.262s] -- Up-to-date symlink: /thesis_project/simulation_ws/install/m2wr_description/share/m2wr_description/environment/path.dsv
+[6.298s] -- Up-to-date symlink: /thesis_project/simulation_ws/install/m2wr_description/share/m2wr_description/local_setup.bash
+[6.335s] -- Up-to-date symlink: /thesis_project/simulation_ws/install/m2wr_description/share/m2wr_description/local_setup.sh
+[6.385s] -- Up-to-date symlink: /thesis_project/simulation_ws/install/m2wr_description/share/m2wr_description/local_setup.zsh
+[6.422s] -- Up-to-date symlink: /thesis_project/simulation_ws/install/m2wr_description/share/m2wr_description/local_setup.dsv
+[6.440s] -- Symlinking: /thesis_project/simulation_ws/install/m2wr_description/share/m2wr_description/package.dsv
+[6.622s] -- Up-to-date symlink: /thesis_project/simulation_ws/install/m2wr_description/share/ament_index/resource_index/packages/m2wr_description
+[6.663s] -- Up-to-date symlink: /thesis_project/simulation_ws/install/m2wr_description/share/m2wr_description/cmake/m2wr_descriptionConfig.cmake
+[6.712s] -- Up-to-date symlink: /thesis_project/simulation_ws/install/m2wr_description/share/m2wr_description/cmake/m2wr_descriptionConfig-version.cmake
+[6.750s] -- Up-to-date symlink: /thesis_project/simulation_ws/install/m2wr_description/share/m2wr_description/package.xml
+[6.778s] Invoked command in '/thesis_project/simulation_ws/build/m2wr_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /thesis_project/simulation_ws/build/m2wr_description

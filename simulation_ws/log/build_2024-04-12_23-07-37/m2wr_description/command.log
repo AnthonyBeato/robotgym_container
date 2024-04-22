@@ -1,0 +1,6 @@
+Invoking command in '/thesis_project/simulation_ws/build/m2wr_description': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /thesis_project/simulation_ws/src/m2wr_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/thesis_project/simulation_ws/install/m2wr_description
+Invoked command in '/thesis_project/simulation_ws/build/m2wr_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /thesis_project/simulation_ws/src/m2wr_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/thesis_project/simulation_ws/install/m2wr_description
+Invoking command in '/thesis_project/simulation_ws/build/m2wr_description': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /thesis_project/simulation_ws/build/m2wr_description -- -j12 -l12
+Invoked command in '/thesis_project/simulation_ws/build/m2wr_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /thesis_project/simulation_ws/build/m2wr_description -- -j12 -l12
+Invoking command in '/thesis_project/simulation_ws/build/m2wr_description': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /thesis_project/simulation_ws/build/m2wr_description
+Invoked command in '/thesis_project/simulation_ws/build/m2wr_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /thesis_project/simulation_ws/build/m2wr_description

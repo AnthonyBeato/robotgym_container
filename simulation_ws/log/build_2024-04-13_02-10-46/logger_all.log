@@ -1,0 +1,200 @@
+[0.248s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.249s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7ff793833bb0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ff793980220>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ff793980220>>, mixin_verb=('build',))
+[0.517s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.518s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.519s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.520s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.520s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.521s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.521s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/thesis_project/simulation_ws'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/m2wr_description) by extensions ['ignore', 'ignore_ament_install']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/m2wr_description) by extension 'ignore'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(src/m2wr_description) by extension 'ignore_ament_install'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/m2wr_description) by extensions ['colcon_pkg']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/m2wr_description) by extension 'colcon_pkg'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/m2wr_description) by extensions ['colcon_meta']
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/m2wr_description) by extension 'colcon_meta'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(src/m2wr_description) by extensions ['ros']
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(src/m2wr_description) by extension 'ros'
+[0.669s] DEBUG:colcon.colcon_core.package_identification:Package 'src/m2wr_description' with type 'ros.ament_cmake' and name 'm2wr_description'
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/ti_rlsk_description) by extensions ['ignore', 'ignore_ament_install']
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/ti_rlsk_description) by extension 'ignore'
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(src/ti_rlsk_description) by extension 'ignore_ament_install'
+[0.689s] Level 1:colcon.colcon_core.package_identification:_identify(src/ti_rlsk_description) by extensions ['colcon_pkg']
+[0.689s] Level 1:colcon.colcon_core.package_identification:_identify(src/ti_rlsk_description) by extension 'colcon_pkg'
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(src/ti_rlsk_description) by extensions ['colcon_meta']
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(src/ti_rlsk_description) by extension 'colcon_meta'
+[0.696s] Level 1:colcon.colcon_core.package_identification:_identify(src/ti_rlsk_description) by extensions ['ros']
+[0.696s] Level 1:colcon.colcon_core.package_identification:_identify(src/ti_rlsk_description) by extension 'ros'
+[0.717s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ti_rlsk_description' with type 'ros.ament_cmake' and name 'ti_rlsk_description'
+[0.718s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.718s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.718s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.719s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.719s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.764s] Level 5:colcon.colcon_core.verb:set package 'm2wr_description' build argument 'cmake_args' from command line to 'None'
+[0.764s] Level 5:colcon.colcon_core.verb:set package 'm2wr_description' build argument 'cmake_target' from command line to 'None'
+[0.765s] Level 5:colcon.colcon_core.verb:set package 'm2wr_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.765s] Level 5:colcon.colcon_core.verb:set package 'm2wr_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'm2wr_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'm2wr_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.767s] Level 5:colcon.colcon_core.verb:set package 'm2wr_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.767s] Level 5:colcon.colcon_core.verb:set package 'm2wr_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.768s] Level 5:colcon.colcon_core.verb:set package 'm2wr_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.768s] DEBUG:colcon.colcon_core.verb:Building package 'm2wr_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/thesis_project/simulation_ws/build/m2wr_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/thesis_project/simulation_ws/install/m2wr_description', 'merge_install': False, 'path': '/thesis_project/simulation_ws/src/m2wr_description', 'symlink_install': True, 'test_result_base': None}
+[0.769s] Level 5:colcon.colcon_core.verb:set package 'ti_rlsk_description' build argument 'cmake_args' from command line to 'None'
+[0.770s] Level 5:colcon.colcon_core.verb:set package 'ti_rlsk_description' build argument 'cmake_target' from command line to 'None'
+[0.770s] Level 5:colcon.colcon_core.verb:set package 'ti_rlsk_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.771s] Level 5:colcon.colcon_core.verb:set package 'ti_rlsk_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.771s] Level 5:colcon.colcon_core.verb:set package 'ti_rlsk_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.772s] Level 5:colcon.colcon_core.verb:set package 'ti_rlsk_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.772s] Level 5:colcon.colcon_core.verb:set package 'ti_rlsk_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.772s] Level 5:colcon.colcon_core.verb:set package 'ti_rlsk_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.773s] Level 5:colcon.colcon_core.verb:set package 'ti_rlsk_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.773s] DEBUG:colcon.colcon_core.verb:Building package 'ti_rlsk_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/thesis_project/simulation_ws/build/ti_rlsk_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/thesis_project/simulation_ws/install/ti_rlsk_description', 'merge_install': False, 'path': '/thesis_project/simulation_ws/src/ti_rlsk_description', 'symlink_install': True, 'test_result_base': None}
+[0.774s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.775s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.776s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/thesis_project/simulation_ws/src/m2wr_description' with build type 'ament_cmake'
+[0.776s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/thesis_project/simulation_ws/src/m2wr_description'
+[0.780s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.781s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.781s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.868s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/thesis_project/simulation_ws/src/ti_rlsk_description' with build type 'ament_cmake'
+[0.869s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/thesis_project/simulation_ws/src/ti_rlsk_description'
+[0.870s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.870s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.047s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/thesis_project/simulation_ws/build/m2wr_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /thesis_project/simulation_ws/build/m2wr_description -- -j12 -l12
+[1.069s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/thesis_project/simulation_ws/build/ti_rlsk_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /thesis_project/simulation_ws/src/ti_rlsk_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/thesis_project/simulation_ws/install/ti_rlsk_description
+[5.171s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/thesis_project/simulation_ws/build/m2wr_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /thesis_project/simulation_ws/build/m2wr_description -- -j12 -l12
+[5.258s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/thesis_project/simulation_ws/build/m2wr_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /thesis_project/simulation_ws/build/m2wr_description
+[6.083s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(m2wr_description)
+[6.084s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/thesis_project/simulation_ws/build/m2wr_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /thesis_project/simulation_ws/build/m2wr_description
+[6.088s] Level 1:colcon.colcon_core.environment:checking '/thesis_project/simulation_ws/install/m2wr_description' for CMake module files
+[6.219s] Level 1:colcon.colcon_core.environment:checking '/thesis_project/simulation_ws/install/m2wr_description' for CMake config files
+[6.372s] Level 1:colcon.colcon_core.shell:create_environment_hook('m2wr_description', 'cmake_prefix_path')
+[6.372s] INFO:colcon.colcon_core.shell:Creating environment hook '/thesis_project/simulation_ws/install/m2wr_description/share/m2wr_description/hook/cmake_prefix_path.ps1'
+[6.398s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/thesis_project/simulation_ws/install/m2wr_description/share/m2wr_description/hook/cmake_prefix_path.dsv'
+[6.425s] INFO:colcon.colcon_core.shell:Creating environment hook '/thesis_project/simulation_ws/install/m2wr_description/share/m2wr_description/hook/cmake_prefix_path.sh'
+[6.456s] Level 1:colcon.colcon_core.environment:checking '/thesis_project/simulation_ws/install/m2wr_description/bin'
+[6.458s] Level 1:colcon.colcon_core.environment:checking '/thesis_project/simulation_ws/install/m2wr_description/lib/pkgconfig/m2wr_description.pc'
+[6.462s] Level 1:colcon.colcon_core.environment:checking '/thesis_project/simulation_ws/install/m2wr_description/lib/python3.10/site-packages'
+[6.465s] Level 1:colcon.colcon_core.environment:checking '/thesis_project/simulation_ws/install/m2wr_description/bin'
+[6.468s] INFO:colcon.colcon_core.shell:Creating package script '/thesis_project/simulation_ws/install/m2wr_description/share/m2wr_description/package.ps1'
+[6.490s] INFO:colcon.colcon_core.shell:Creating package descriptor '/thesis_project/simulation_ws/install/m2wr_description/share/m2wr_description/package.dsv'
+[6.514s] INFO:colcon.colcon_core.shell:Creating package script '/thesis_project/simulation_ws/install/m2wr_description/share/m2wr_description/package.sh'
+[6.537s] INFO:colcon.colcon_core.shell:Creating package script '/thesis_project/simulation_ws/install/m2wr_description/share/m2wr_description/package.bash'
+[6.558s] INFO:colcon.colcon_core.shell:Creating package script '/thesis_project/simulation_ws/install/m2wr_description/share/m2wr_description/package.zsh'
+[6.576s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/thesis_project/simulation_ws/install/m2wr_description/share/colcon-core/packages/m2wr_description)
+[6.659s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(m2wr_description)
+[6.660s] Level 1:colcon.colcon_core.environment:checking '/thesis_project/simulation_ws/install/m2wr_description' for CMake module files
+[6.815s] Level 1:colcon.colcon_core.environment:checking '/thesis_project/simulation_ws/install/m2wr_description' for CMake config files
+[6.964s] Level 1:colcon.colcon_core.shell:create_environment_hook('m2wr_description', 'cmake_prefix_path')
+[6.965s] INFO:colcon.colcon_core.shell:Creating environment hook '/thesis_project/simulation_ws/install/m2wr_description/share/m2wr_description/hook/cmake_prefix_path.ps1'
+[6.987s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/thesis_project/simulation_ws/install/m2wr_description/share/m2wr_description/hook/cmake_prefix_path.dsv'
+[7.008s] INFO:colcon.colcon_core.shell:Creating environment hook '/thesis_project/simulation_ws/install/m2wr_description/share/m2wr_description/hook/cmake_prefix_path.sh'
+[7.039s] Level 1:colcon.colcon_core.environment:checking '/thesis_project/simulation_ws/install/m2wr_description/bin'
+[7.041s] Level 1:colcon.colcon_core.environment:checking '/thesis_project/simulation_ws/install/m2wr_description/lib/pkgconfig/m2wr_description.pc'
+[7.043s] Level 1:colcon.colcon_core.environment:checking '/thesis_project/simulation_ws/install/m2wr_description/lib/python3.10/site-packages'
+[7.046s] Level 1:colcon.colcon_core.environment:checking '/thesis_project/simulation_ws/install/m2wr_description/bin'
+[7.048s] INFO:colcon.colcon_core.shell:Creating package script '/thesis_project/simulation_ws/install/m2wr_description/share/m2wr_description/package.ps1'
+[7.066s] INFO:colcon.colcon_core.shell:Creating package descriptor '/thesis_project/simulation_ws/install/m2wr_description/share/m2wr_description/package.dsv'
+[7.084s] INFO:colcon.colcon_core.shell:Creating package script '/thesis_project/simulation_ws/install/m2wr_description/share/m2wr_description/package.sh'
+[7.103s] INFO:colcon.colcon_core.shell:Creating package script '/thesis_project/simulation_ws/install/m2wr_description/share/m2wr_description/package.bash'
+[7.125s] INFO:colcon.colcon_core.shell:Creating package script '/thesis_project/simulation_ws/install/m2wr_description/share/m2wr_description/package.zsh'
+[7.146s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/thesis_project/simulation_ws/install/m2wr_description/share/colcon-core/packages/m2wr_description)
+[9.498s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/thesis_project/simulation_ws/build/ti_rlsk_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /thesis_project/simulation_ws/src/ti_rlsk_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/thesis_project/simulation_ws/install/ti_rlsk_description
+[9.518s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/thesis_project/simulation_ws/build/ti_rlsk_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /thesis_project/simulation_ws/build/ti_rlsk_description -- -j12 -l12
+[9.738s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/thesis_project/simulation_ws/build/ti_rlsk_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /thesis_project/simulation_ws/build/ti_rlsk_description -- -j12 -l12
+[9.823s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/thesis_project/simulation_ws/build/ti_rlsk_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /thesis_project/simulation_ws/build/ti_rlsk_description
+[11.339s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ti_rlsk_description)
+[11.340s] Level 1:colcon.colcon_core.environment:checking '/thesis_project/simulation_ws/install/ti_rlsk_description' for CMake module files
+[11.341s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/thesis_project/simulation_ws/build/ti_rlsk_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /thesis_project/simulation_ws/build/ti_rlsk_description
+[11.534s] Level 1:colcon.colcon_core.environment:checking '/thesis_project/simulation_ws/install/ti_rlsk_description' for CMake config files
+[11.672s] Level 1:colcon.colcon_core.shell:create_environment_hook('ti_rlsk_description', 'cmake_prefix_path')
+[11.673s] INFO:colcon.colcon_core.shell:Creating environment hook '/thesis_project/simulation_ws/install/ti_rlsk_description/share/ti_rlsk_description/hook/cmake_prefix_path.ps1'
+[11.690s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/thesis_project/simulation_ws/install/ti_rlsk_description/share/ti_rlsk_description/hook/cmake_prefix_path.dsv'
+[11.712s] INFO:colcon.colcon_core.shell:Creating environment hook '/thesis_project/simulation_ws/install/ti_rlsk_description/share/ti_rlsk_description/hook/cmake_prefix_path.sh'
+[11.744s] Level 1:colcon.colcon_core.environment:checking '/thesis_project/simulation_ws/install/ti_rlsk_description/bin'
+[11.746s] Level 1:colcon.colcon_core.environment:checking '/thesis_project/simulation_ws/install/ti_rlsk_description/lib/pkgconfig/ti_rlsk_description.pc'
+[11.749s] Level 1:colcon.colcon_core.environment:checking '/thesis_project/simulation_ws/install/ti_rlsk_description/lib/python3.10/site-packages'
+[11.752s] Level 1:colcon.colcon_core.environment:checking '/thesis_project/simulation_ws/install/ti_rlsk_description/bin'
+[11.755s] INFO:colcon.colcon_core.shell:Creating package script '/thesis_project/simulation_ws/install/ti_rlsk_description/share/ti_rlsk_description/package.ps1'
+[11.776s] INFO:colcon.colcon_core.shell:Creating package descriptor '/thesis_project/simulation_ws/install/ti_rlsk_description/share/ti_rlsk_description/package.dsv'
+[11.799s] INFO:colcon.colcon_core.shell:Creating package script '/thesis_project/simulation_ws/install/ti_rlsk_description/share/ti_rlsk_description/package.sh'
+[11.818s] INFO:colcon.colcon_core.shell:Creating package script '/thesis_project/simulation_ws/install/ti_rlsk_description/share/ti_rlsk_description/package.bash'
+[11.837s] INFO:colcon.colcon_core.shell:Creating package script '/thesis_project/simulation_ws/install/ti_rlsk_description/share/ti_rlsk_description/package.zsh'
+[11.867s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/thesis_project/simulation_ws/install/ti_rlsk_description/share/colcon-core/packages/ti_rlsk_description)
+[11.947s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ti_rlsk_description)
+[11.948s] Level 1:colcon.colcon_core.environment:checking '/thesis_project/simulation_ws/install/ti_rlsk_description' for CMake module files
+[12.126s] Level 1:colcon.colcon_core.environment:checking '/thesis_project/simulation_ws/install/ti_rlsk_description' for CMake config files
+[12.282s] Level 1:colcon.colcon_core.shell:create_environment_hook('ti_rlsk_description', 'cmake_prefix_path')
+[12.283s] INFO:colcon.colcon_core.shell:Creating environment hook '/thesis_project/simulation_ws/install/ti_rlsk_description/share/ti_rlsk_description/hook/cmake_prefix_path.ps1'
+[12.304s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/thesis_project/simulation_ws/install/ti_rlsk_description/share/ti_rlsk_description/hook/cmake_prefix_path.dsv'
+[12.327s] INFO:colcon.colcon_core.shell:Creating environment hook '/thesis_project/simulation_ws/install/ti_rlsk_description/share/ti_rlsk_description/hook/cmake_prefix_path.sh'
+[12.354s] Level 1:colcon.colcon_core.environment:checking '/thesis_project/simulation_ws/install/ti_rlsk_description/bin'
+[12.356s] Level 1:colcon.colcon_core.environment:checking '/thesis_project/simulation_ws/install/ti_rlsk_description/lib/pkgconfig/ti_rlsk_description.pc'
+[12.359s] Level 1:colcon.colcon_core.environment:checking '/thesis_project/simulation_ws/install/ti_rlsk_description/lib/python3.10/site-packages'
+[12.361s] Level 1:colcon.colcon_core.environment:checking '/thesis_project/simulation_ws/install/ti_rlsk_description/bin'
+[12.364s] INFO:colcon.colcon_core.shell:Creating package script '/thesis_project/simulation_ws/install/ti_rlsk_description/share/ti_rlsk_description/package.ps1'
+[12.385s] INFO:colcon.colcon_core.shell:Creating package descriptor '/thesis_project/simulation_ws/install/ti_rlsk_description/share/ti_rlsk_description/package.dsv'
+[12.404s] INFO:colcon.colcon_core.shell:Creating package script '/thesis_project/simulation_ws/install/ti_rlsk_description/share/ti_rlsk_description/package.sh'
+[12.423s] INFO:colcon.colcon_core.shell:Creating package script '/thesis_project/simulation_ws/install/ti_rlsk_description/share/ti_rlsk_description/package.bash'
+[12.442s] INFO:colcon.colcon_core.shell:Creating package script '/thesis_project/simulation_ws/install/ti_rlsk_description/share/ti_rlsk_description/package.zsh'
+[12.462s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/thesis_project/simulation_ws/install/ti_rlsk_description/share/colcon-core/packages/ti_rlsk_description)
+[12.478s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[12.479s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[12.480s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[12.480s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[12.507s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[12.508s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[12.509s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[12.509s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[12.518s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[12.519s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[12.520s] INFO:colcon.colcon_core.shell:Creating prefix script '/thesis_project/simulation_ws/install/local_setup.ps1'
+[12.533s] INFO:colcon.colcon_core.shell:Creating prefix util module '/thesis_project/simulation_ws/install/_local_setup_util_ps1.py'
+[12.565s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/thesis_project/simulation_ws/install/setup.ps1'
+[12.595s] INFO:colcon.colcon_core.shell:Creating prefix script '/thesis_project/simulation_ws/install/local_setup.sh'
+[12.605s] INFO:colcon.colcon_core.shell:Creating prefix util module '/thesis_project/simulation_ws/install/_local_setup_util_sh.py'
+[12.614s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/thesis_project/simulation_ws/install/setup.sh'
+[12.640s] INFO:colcon.colcon_core.shell:Creating prefix script '/thesis_project/simulation_ws/install/local_setup.bash'
+[12.648s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/thesis_project/simulation_ws/install/setup.bash'
+[12.673s] INFO:colcon.colcon_core.shell:Creating prefix script '/thesis_project/simulation_ws/install/local_setup.zsh'
+[12.682s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/thesis_project/simulation_ws/install/setup.zsh'

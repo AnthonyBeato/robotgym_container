@@ -1,0 +1,23 @@
+[0.244s] Invoking command in '/thesis_project/simulation_ws/build/ti_rlsk_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /thesis_project/simulation_ws/build/ti_rlsk_description -- -j12 -l12
+[0.424s] Invoked command in '/thesis_project/simulation_ws/build/ti_rlsk_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /thesis_project/simulation_ws/build/ti_rlsk_description -- -j12 -l12
+[0.500s] Invoking command in '/thesis_project/simulation_ws/build/ti_rlsk_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /thesis_project/simulation_ws/build/ti_rlsk_description
+[0.520s] -- Install configuration: ""
+[0.541s] -- Execute custom install script
+[0.634s] -- Up-to-date symlink: /thesis_project/simulation_ws/install/ti_rlsk_description/share/ti_rlsk_description/launch/rsp.launch.py
+[0.686s] -- Up-to-date symlink: /thesis_project/simulation_ws/install/ti_rlsk_description/share/ti_rlsk_description/launch/rsp_sim.launch.py
+[0.797s] -- Up-to-date symlink: /thesis_project/simulation_ws/install/ti_rlsk_description/share/ament_index/resource_index/package_run_dependencies/ti_rlsk_description
+[0.884s] -- Up-to-date symlink: /thesis_project/simulation_ws/install/ti_rlsk_description/share/ament_index/resource_index/parent_prefix_path/ti_rlsk_description
+[0.913s] -- Up-to-date symlink: /thesis_project/simulation_ws/install/ti_rlsk_description/share/ti_rlsk_description/environment/ament_prefix_path.sh
+[0.949s] -- Up-to-date symlink: /thesis_project/simulation_ws/install/ti_rlsk_description/share/ti_rlsk_description/environment/ament_prefix_path.dsv
+[0.977s] -- Up-to-date symlink: /thesis_project/simulation_ws/install/ti_rlsk_description/share/ti_rlsk_description/environment/path.sh
+[1.014s] -- Up-to-date symlink: /thesis_project/simulation_ws/install/ti_rlsk_description/share/ti_rlsk_description/environment/path.dsv
+[1.048s] -- Up-to-date symlink: /thesis_project/simulation_ws/install/ti_rlsk_description/share/ti_rlsk_description/local_setup.bash
+[1.082s] -- Up-to-date symlink: /thesis_project/simulation_ws/install/ti_rlsk_description/share/ti_rlsk_description/local_setup.sh
+[1.120s] -- Up-to-date symlink: /thesis_project/simulation_ws/install/ti_rlsk_description/share/ti_rlsk_description/local_setup.zsh
+[1.158s] -- Up-to-date symlink: /thesis_project/simulation_ws/install/ti_rlsk_description/share/ti_rlsk_description/local_setup.dsv
+[1.176s] -- Symlinking: /thesis_project/simulation_ws/install/ti_rlsk_description/share/ti_rlsk_description/package.dsv
+[1.332s] -- Up-to-date symlink: /thesis_project/simulation_ws/install/ti_rlsk_description/share/ament_index/resource_index/packages/ti_rlsk_description
+[1.367s] -- Up-to-date symlink: /thesis_project/simulation_ws/install/ti_rlsk_description/share/ti_rlsk_description/cmake/ti_rlsk_descriptionConfig.cmake
+[1.401s] -- Up-to-date symlink: /thesis_project/simulation_ws/install/ti_rlsk_description/share/ti_rlsk_description/cmake/ti_rlsk_descriptionConfig-version.cmake
+[1.443s] -- Up-to-date symlink: /thesis_project/simulation_ws/install/ti_rlsk_description/share/ti_rlsk_description/package.xml
+[1.978s] Invoked command in '/thesis_project/simulation_ws/build/ti_rlsk_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /thesis_project/simulation_ws/build/ti_rlsk_description

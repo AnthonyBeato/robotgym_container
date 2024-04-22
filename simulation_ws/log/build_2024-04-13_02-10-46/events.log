@@ -1,0 +1,213 @@
+[0.000000] (-) TimerEvent: {}
+[0.000790] (m2wr_description) JobQueued: {'identifier': 'm2wr_description', 'dependencies': OrderedDict()}
+[0.001180] (ti_rlsk_description) JobQueued: {'identifier': 'ti_rlsk_description', 'dependencies': OrderedDict()}
+[0.001573] (m2wr_description) JobStarted: {'identifier': 'm2wr_description'}
+[0.091711] (ti_rlsk_description) JobStarted: {'identifier': 'ti_rlsk_description'}
+[0.098050] (-) TimerEvent: {}
+[0.190527] (m2wr_description) JobProgress: {'identifier': 'm2wr_description', 'progress': 'cmake'}
+[0.198185] (-) TimerEvent: {}
+[0.235372] (m2wr_description) JobProgress: {'identifier': 'm2wr_description', 'progress': 'build'}
+[0.246031] (m2wr_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/thesis_project/simulation_ws/build/m2wr_description', '--', '-j12', '-l12'], 'cwd': '/thesis_project/simulation_ws/build/m2wr_description', 'env': OrderedDict([('HOSTNAME', '65b53883f601'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/bin/helpers/browser.sh'), ('HOME', '/home/vscode'), ('OLDPWD', '/thesis_project/simulation_ws/src'), ('TERM_PROGRAM_VERSION', '1.88.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-6ea8a40b-747a-4fda-a26b-a249b7c647b6.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/thesis_project/simulation_ws/install'), ('ROS_DISTRO', 'iron'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-362346e9-14e6-4cb8-860d-0ac501cad407.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('PATH', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/bin/remote-cli:/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '[]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-44eedfd7df.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/thesis_project/simulation_ws/install/m2wr_description:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/thesis_project/simulation_ws/build/m2wr_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/thesis_project/simulation_ws/install/m2wr_description:/opt/ros/iron')]), 'shell': False}
+[0.270800] (ti_rlsk_description) JobProgress: {'identifier': 'ti_rlsk_description', 'progress': 'cmake'}
+[0.272773] (ti_rlsk_description) Command: {'cmd': ['/usr/bin/cmake', '/thesis_project/simulation_ws/src/ti_rlsk_description', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/thesis_project/simulation_ws/install/ti_rlsk_description'], 'cwd': '/thesis_project/simulation_ws/build/ti_rlsk_description', 'env': OrderedDict([('HOSTNAME', '65b53883f601'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/bin/helpers/browser.sh'), ('HOME', '/home/vscode'), ('OLDPWD', '/thesis_project/simulation_ws/src'), ('TERM_PROGRAM_VERSION', '1.88.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-6ea8a40b-747a-4fda-a26b-a249b7c647b6.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/thesis_project/simulation_ws/install'), ('ROS_DISTRO', 'iron'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-362346e9-14e6-4cb8-860d-0ac501cad407.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('PATH', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/bin/remote-cli:/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '[]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-44eedfd7df.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/thesis_project/simulation_ws/install/m2wr_description:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/thesis_project/simulation_ws/build/ti_rlsk_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/thesis_project/simulation_ws/install/m2wr_description:/opt/ros/iron')]), 'shell': False}
+[0.298350] (-) TimerEvent: {}
+[0.399031] (-) TimerEvent: {}
+[0.485333] (m2wr_description) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[0.499189] (-) TimerEvent: {}
+[0.599988] (-) TimerEvent: {}
+[0.700748] (-) TimerEvent: {}
+[0.735087] (ti_rlsk_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.800938] (-) TimerEvent: {}
+[0.812092] (m2wr_description) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.901118] (-) TimerEvent: {}
+[0.968122] (m2wr_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.14.3 (/opt/ros/iron/share/ament_lint_auto/cmake)\n'}
+[1.001274] (-) TimerEvent: {}
+[1.101967] (-) TimerEvent: {}
+[1.117104] (ti_rlsk_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.202143] (-) TimerEvent: {}
+[1.224986] (ti_rlsk_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.302317] (-) TimerEvent: {}
+[1.403057] (-) TimerEvent: {}
+[1.503800] (-) TimerEvent: {}
+[1.604593] (-) TimerEvent: {}
+[1.705357] (-) TimerEvent: {}
+[1.806138] (-) TimerEvent: {}
+[1.906803] (-) TimerEvent: {}
+[2.007608] (-) TimerEvent: {}
+[2.073369] (ti_rlsk_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.107771] (-) TimerEvent: {}
+[2.111337] (ti_rlsk_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.112768] (ti_rlsk_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.125005] (ti_rlsk_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.196742] (ti_rlsk_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.207921] (-) TimerEvent: {}
+[2.308559] (-) TimerEvent: {}
+[2.409265] (-) TimerEvent: {}
+[2.447567] (m2wr_description) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.448940] (m2wr_description) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[2.509437] (-) TimerEvent: {}
+[2.610085] (-) TimerEvent: {}
+[2.649145] (m2wr_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.710255] (-) TimerEvent: {}
+[2.750324] (m2wr_description) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.810413] (-) TimerEvent: {}
+[2.911080] (-) TimerEvent: {}
+[2.962192] (ti_rlsk_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.002271] (ti_rlsk_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.003565] (ti_rlsk_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.004901] (ti_rlsk_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.016845] (-) TimerEvent: {}
+[3.117524] (-) TimerEvent: {}
+[3.166186] (ti_rlsk_description) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[3.217681] (-) TimerEvent: {}
+[3.318298] (-) TimerEvent: {}
+[3.418917] (-) TimerEvent: {}
+[3.519636] (-) TimerEvent: {}
+[3.572427] (m2wr_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.619789] (-) TimerEvent: {}
+[3.720657] (-) TimerEvent: {}
+[3.744507] (m2wr_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.752703] (ti_rlsk_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[3.820812] (-) TimerEvent: {}
+[3.921482] (-) TimerEvent: {}
+[3.960239] (ti_rlsk_description) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[4.021647] (-) TimerEvent: {}
+[4.122398] (-) TimerEvent: {}
+[4.223161] (-) TimerEvent: {}
+[4.261187] (m2wr_description) StdoutLine: {'line': b'-- Generating done\n'}
+[4.323336] (-) TimerEvent: {}
+[4.350262] (m2wr_description) StdoutLine: {'line': b'-- Build files have been written to: /thesis_project/simulation_ws/build/m2wr_description\n'}
+[4.392341] (m2wr_description) CommandEnded: {'returncode': 0}
+[4.423461] (-) TimerEvent: {}
+[4.451872] (m2wr_description) JobProgress: {'identifier': 'm2wr_description', 'progress': 'install'}
+[4.467924] (m2wr_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/thesis_project/simulation_ws/build/m2wr_description'], 'cwd': '/thesis_project/simulation_ws/build/m2wr_description', 'env': OrderedDict([('HOSTNAME', '65b53883f601'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/bin/helpers/browser.sh'), ('HOME', '/home/vscode'), ('OLDPWD', '/thesis_project/simulation_ws/src'), ('TERM_PROGRAM_VERSION', '1.88.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-6ea8a40b-747a-4fda-a26b-a249b7c647b6.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/thesis_project/simulation_ws/install'), ('ROS_DISTRO', 'iron'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-362346e9-14e6-4cb8-860d-0ac501cad407.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('PATH', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/bin/remote-cli:/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '[]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-44eedfd7df.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/thesis_project/simulation_ws/install/m2wr_description:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/thesis_project/simulation_ws/build/m2wr_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/thesis_project/simulation_ws/install/m2wr_description:/opt/ros/iron')]), 'shell': False}
+[4.484736] (m2wr_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.500554] (m2wr_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[4.523630] (-) TimerEvent: {}
+[4.569270] (m2wr_description) StdoutLine: {'line': b'-- Up-to-date symlink: /thesis_project/simulation_ws/install/m2wr_description/share/m2wr_description/launch/rsp.launch.py\n'}
+[4.609183] (m2wr_description) StdoutLine: {'line': b'-- Up-to-date symlink: /thesis_project/simulation_ws/install/m2wr_description/share/m2wr_description/launch/rsp_sim.launch.py\n'}
+[4.623853] (-) TimerEvent: {}
+[4.682424] (m2wr_description) StdoutLine: {'line': b'-- Up-to-date symlink: /thesis_project/simulation_ws/install/m2wr_description/share/ament_index/resource_index/package_run_dependencies/m2wr_description\n'}
+[4.724001] (-) TimerEvent: {}
+[4.753752] (m2wr_description) StdoutLine: {'line': b'-- Up-to-date symlink: /thesis_project/simulation_ws/install/m2wr_description/share/ament_index/resource_index/parent_prefix_path/m2wr_description\n'}
+[4.783362] (m2wr_description) StdoutLine: {'line': b'-- Up-to-date symlink: /thesis_project/simulation_ws/install/m2wr_description/share/m2wr_description/environment/ament_prefix_path.sh\n'}
+[4.817194] (m2wr_description) StdoutLine: {'line': b'-- Up-to-date symlink: /thesis_project/simulation_ws/install/m2wr_description/share/m2wr_description/environment/ament_prefix_path.dsv\n'}
+[4.824150] (-) TimerEvent: {}
+[4.845547] (m2wr_description) StdoutLine: {'line': b'-- Up-to-date symlink: /thesis_project/simulation_ws/install/m2wr_description/share/m2wr_description/environment/path.sh\n'}
+[4.869929] (ti_rlsk_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.14.3 (/opt/ros/iron/share/ament_lint_auto/cmake)\n'}
+[4.884009] (m2wr_description) StdoutLine: {'line': b'-- Up-to-date symlink: /thesis_project/simulation_ws/install/m2wr_description/share/m2wr_description/environment/path.dsv\n'}
+[4.924310] (-) TimerEvent: {}
+[4.931331] (m2wr_description) StdoutLine: {'line': b'-- Up-to-date symlink: /thesis_project/simulation_ws/install/m2wr_description/share/m2wr_description/local_setup.bash\n'}
+[4.969818] (m2wr_description) StdoutLine: {'line': b'-- Up-to-date symlink: /thesis_project/simulation_ws/install/m2wr_description/share/m2wr_description/local_setup.sh\n'}
+[5.010471] (m2wr_description) StdoutLine: {'line': b'-- Up-to-date symlink: /thesis_project/simulation_ws/install/m2wr_description/share/m2wr_description/local_setup.zsh\n'}
+[5.024486] (-) TimerEvent: {}
+[5.051152] (m2wr_description) StdoutLine: {'line': b'-- Up-to-date symlink: /thesis_project/simulation_ws/install/m2wr_description/share/m2wr_description/local_setup.dsv\n'}
+[5.073367] (m2wr_description) StdoutLine: {'line': b'-- Symlinking: /thesis_project/simulation_ws/install/m2wr_description/share/m2wr_description/package.dsv\n'}
+[5.124722] (-) TimerEvent: {}
+[5.208260] (m2wr_description) StdoutLine: {'line': b'-- Up-to-date symlink: /thesis_project/simulation_ws/install/m2wr_description/share/ament_index/resource_index/packages/m2wr_description\n'}
+[5.224874] (-) TimerEvent: {}
+[5.240891] (m2wr_description) StdoutLine: {'line': b'-- Up-to-date symlink: /thesis_project/simulation_ws/install/m2wr_description/share/m2wr_description/cmake/m2wr_descriptionConfig.cmake\n'}
+[5.264810] (m2wr_description) StdoutLine: {'line': b'-- Up-to-date symlink: /thesis_project/simulation_ws/install/m2wr_description/share/m2wr_description/cmake/m2wr_descriptionConfig-version.cmake\n'}
+[5.290828] (m2wr_description) StdoutLine: {'line': b'-- Up-to-date symlink: /thesis_project/simulation_ws/install/m2wr_description/share/m2wr_description/package.xml\n'}
+[5.305889] (m2wr_description) CommandEnded: {'returncode': 0}
+[5.325032] (-) TimerEvent: {}
+[5.425746] (-) TimerEvent: {}
+[5.526511] (-) TimerEvent: {}
+[5.627195] (-) TimerEvent: {}
+[5.728015] (-) TimerEvent: {}
+[5.828835] (-) TimerEvent: {}
+[5.929538] (-) TimerEvent: {}
+[6.030207] (-) TimerEvent: {}
+[6.130972] (-) TimerEvent: {}
+[6.231651] (-) TimerEvent: {}
+[6.332589] (-) TimerEvent: {}
+[6.384899] (m2wr_description) JobEnded: {'identifier': 'm2wr_description', 'rc': 0}
+[6.432758] (-) TimerEvent: {}
+[6.533562] (-) TimerEvent: {}
+[6.599245] (ti_rlsk_description) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[6.600820] (ti_rlsk_description) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[6.633751] (-) TimerEvent: {}
+[6.734549] (-) TimerEvent: {}
+[6.811114] (ti_rlsk_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.834748] (-) TimerEvent: {}
+[6.935661] (-) TimerEvent: {}
+[6.942915] (ti_rlsk_description) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[7.035820] (-) TimerEvent: {}
+[7.136518] (-) TimerEvent: {}
+[7.237253] (-) TimerEvent: {}
+[7.338122] (-) TimerEvent: {}
+[7.438831] (-) TimerEvent: {}
+[7.539466] (-) TimerEvent: {}
+[7.640230] (-) TimerEvent: {}
+[7.741050] (-) TimerEvent: {}
+[7.806011] (ti_rlsk_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[7.841230] (-) TimerEvent: {}
+[7.942051] (-) TimerEvent: {}
+[8.042813] (-) TimerEvent: {}
+[8.070255] (ti_rlsk_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[8.142973] (-) TimerEvent: {}
+[8.243823] (-) TimerEvent: {}
+[8.344601] (-) TimerEvent: {}
+[8.445324] (-) TimerEvent: {}
+[8.546134] (-) TimerEvent: {}
+[8.602632] (ti_rlsk_description) StdoutLine: {'line': b'-- Generating done\n'}
+[8.646347] (-) TimerEvent: {}
+[8.713544] (ti_rlsk_description) StdoutLine: {'line': b'-- Build files have been written to: /thesis_project/simulation_ws/build/ti_rlsk_description\n'}
+[8.719369] (ti_rlsk_description) CommandEnded: {'returncode': 0}
+[8.728246] (ti_rlsk_description) JobProgress: {'identifier': 'ti_rlsk_description', 'progress': 'build'}
+[8.739162] (ti_rlsk_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/thesis_project/simulation_ws/build/ti_rlsk_description', '--', '-j12', '-l12'], 'cwd': '/thesis_project/simulation_ws/build/ti_rlsk_description', 'env': OrderedDict([('HOSTNAME', '65b53883f601'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/bin/helpers/browser.sh'), ('HOME', '/home/vscode'), ('OLDPWD', '/thesis_project/simulation_ws/src'), ('TERM_PROGRAM_VERSION', '1.88.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-6ea8a40b-747a-4fda-a26b-a249b7c647b6.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/thesis_project/simulation_ws/install'), ('ROS_DISTRO', 'iron'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-362346e9-14e6-4cb8-860d-0ac501cad407.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('PATH', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/bin/remote-cli:/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '[]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-44eedfd7df.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/thesis_project/simulation_ws/install/m2wr_description:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/thesis_project/simulation_ws/build/ti_rlsk_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/thesis_project/simulation_ws/install/m2wr_description:/opt/ros/iron')]), 'shell': False}
+[8.746532] (-) TimerEvent: {}
+[8.847463] (-) TimerEvent: {}
+[8.948324] (-) TimerEvent: {}
+[8.959243] (ti_rlsk_description) CommandEnded: {'returncode': 0}
+[9.029799] (ti_rlsk_description) JobProgress: {'identifier': 'ti_rlsk_description', 'progress': 'install'}
+[9.040929] (ti_rlsk_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/thesis_project/simulation_ws/build/ti_rlsk_description'], 'cwd': '/thesis_project/simulation_ws/build/ti_rlsk_description', 'env': OrderedDict([('HOSTNAME', '65b53883f601'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/bin/helpers/browser.sh'), ('HOME', '/home/vscode'), ('OLDPWD', '/thesis_project/simulation_ws/src'), ('TERM_PROGRAM_VERSION', '1.88.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-6ea8a40b-747a-4fda-a26b-a249b7c647b6.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/thesis_project/simulation_ws/install'), ('ROS_DISTRO', 'iron'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-362346e9-14e6-4cb8-860d-0ac501cad407.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('PATH', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/bin/remote-cli:/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '[]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-44eedfd7df.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/thesis_project/simulation_ws/install/m2wr_description:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/thesis_project/simulation_ws/build/ti_rlsk_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/thesis_project/simulation_ws/install/m2wr_description:/opt/ros/iron')]), 'shell': False}
+[9.048445] (-) TimerEvent: {}
+[9.061277] (ti_rlsk_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.081897] (ti_rlsk_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[9.148599] (-) TimerEvent: {}
+[9.178410] (ti_rlsk_description) StdoutLine: {'line': b'-- Symlinking: /thesis_project/simulation_ws/install/ti_rlsk_description/share/ti_rlsk_description/launch/rsp.launch.py\n'}
+[9.248767] (-) TimerEvent: {}
+[9.268545] (ti_rlsk_description) StdoutLine: {'line': b'-- Symlinking: /thesis_project/simulation_ws/install/ti_rlsk_description/share/ti_rlsk_description/launch/rsp_sim.launch.py\n'}
+[9.348956] (-) TimerEvent: {}
+[9.394876] (ti_rlsk_description) StdoutLine: {'line': b'-- Symlinking: /thesis_project/simulation_ws/install/ti_rlsk_description/share/ament_index/resource_index/package_run_dependencies/ti_rlsk_description\n'}
+[9.449109] (-) TimerEvent: {}
+[9.508964] (ti_rlsk_description) StdoutLine: {'line': b'-- Symlinking: /thesis_project/simulation_ws/install/ti_rlsk_description/share/ament_index/resource_index/parent_prefix_path/ti_rlsk_description\n'}
+[9.549272] (-) TimerEvent: {}
+[9.618603] (ti_rlsk_description) StdoutLine: {'line': b'-- Symlinking: /thesis_project/simulation_ws/install/ti_rlsk_description/share/ti_rlsk_description/environment/ament_prefix_path.sh\n'}
+[9.649427] (-) TimerEvent: {}
+[9.685779] (ti_rlsk_description) StdoutLine: {'line': b'-- Symlinking: /thesis_project/simulation_ws/install/ti_rlsk_description/share/ti_rlsk_description/environment/ament_prefix_path.dsv\n'}
+[9.749585] (-) TimerEvent: {}
+[9.768765] (ti_rlsk_description) StdoutLine: {'line': b'-- Symlinking: /thesis_project/simulation_ws/install/ti_rlsk_description/share/ti_rlsk_description/environment/path.sh\n'}
+[9.834547] (ti_rlsk_description) StdoutLine: {'line': b'-- Symlinking: /thesis_project/simulation_ws/install/ti_rlsk_description/share/ti_rlsk_description/environment/path.dsv\n'}
+[9.849729] (-) TimerEvent: {}
+[9.911757] (ti_rlsk_description) StdoutLine: {'line': b'-- Symlinking: /thesis_project/simulation_ws/install/ti_rlsk_description/share/ti_rlsk_description/local_setup.bash\n'}
+[9.949932] (-) TimerEvent: {}
+[9.969435] (ti_rlsk_description) StdoutLine: {'line': b'-- Symlinking: /thesis_project/simulation_ws/install/ti_rlsk_description/share/ti_rlsk_description/local_setup.sh\n'}
+[10.030727] (ti_rlsk_description) StdoutLine: {'line': b'-- Symlinking: /thesis_project/simulation_ws/install/ti_rlsk_description/share/ti_rlsk_description/local_setup.zsh\n'}
+[10.050080] (-) TimerEvent: {}
+[10.089675] (ti_rlsk_description) StdoutLine: {'line': b'-- Symlinking: /thesis_project/simulation_ws/install/ti_rlsk_description/share/ti_rlsk_description/local_setup.dsv\n'}
+[10.150256] (-) TimerEvent: {}
+[10.168853] (ti_rlsk_description) StdoutLine: {'line': b'-- Symlinking: /thesis_project/simulation_ws/install/ti_rlsk_description/share/ti_rlsk_description/package.dsv\n'}
+[10.250441] (-) TimerEvent: {}
+[10.281205] (ti_rlsk_description) StdoutLine: {'line': b'-- Symlinking: /thesis_project/simulation_ws/install/ti_rlsk_description/share/ament_index/resource_index/packages/ti_rlsk_description\n'}
+[10.350631] (-) TimerEvent: {}
+[10.373522] (ti_rlsk_description) StdoutLine: {'line': b'-- Symlinking: /thesis_project/simulation_ws/install/ti_rlsk_description/share/ti_rlsk_description/cmake/ti_rlsk_descriptionConfig.cmake\n'}
+[10.435255] (ti_rlsk_description) StdoutLine: {'line': b'-- Symlinking: /thesis_project/simulation_ws/install/ti_rlsk_description/share/ti_rlsk_description/cmake/ti_rlsk_descriptionConfig-version.cmake\n'}
+[10.450793] (-) TimerEvent: {}
+[10.497188] (ti_rlsk_description) StdoutLine: {'line': b'-- Symlinking: /thesis_project/simulation_ws/install/ti_rlsk_description/share/ti_rlsk_description/package.xml\n'}
+[10.550962] (-) TimerEvent: {}
+[10.562434] (ti_rlsk_description) CommandEnded: {'returncode': 0}
+[10.651119] (-) TimerEvent: {}
+[10.751918] (-) TimerEvent: {}
+[10.872505] (-) TimerEvent: {}
+[10.973175] (-) TimerEvent: {}
+[11.073823] (-) TimerEvent: {}
+[11.174715] (-) TimerEvent: {}
+[11.275540] (-) TimerEvent: {}
+[11.376182] (-) TimerEvent: {}
+[11.484108] (-) TimerEvent: {}
+[11.584764] (-) TimerEvent: {}
+[11.685476] (-) TimerEvent: {}
+[11.701363] (ti_rlsk_description) JobEnded: {'identifier': 'ti_rlsk_description', 'rc': 0}
+[11.713634] (-) EventReactorShutdown: {}

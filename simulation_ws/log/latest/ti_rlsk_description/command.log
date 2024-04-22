@@ -1,0 +1,4 @@
+Invoking command in '/thesis_project/simulation_ws/build/ti_rlsk_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /thesis_project/simulation_ws/build/ti_rlsk_description -- -j12 -l12
+Invoked command in '/thesis_project/simulation_ws/build/ti_rlsk_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /thesis_project/simulation_ws/build/ti_rlsk_description -- -j12 -l12
+Invoking command in '/thesis_project/simulation_ws/build/ti_rlsk_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /thesis_project/simulation_ws/build/ti_rlsk_description
+Invoked command in '/thesis_project/simulation_ws/build/ti_rlsk_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /thesis_project/simulation_ws/build/ti_rlsk_description
