@@ -5,6 +5,7 @@ RUN apt-get update \
     && apt-get install -y \
     nano \
     vim \ 
+    wget \
     && rm -rf /var/lib/apt/lists/*
 
 
@@ -36,6 +37,11 @@ RUN sudo apt-get update && sudo apt-get install -y \
 RUN wget -q -O virtualgl.deb https://sourceforge.net/projects/virtualgl/files/3.1/virtualgl_3.1_amd64.deb/download \
 && dpkg -i virtualgl.deb || apt-get install -fy \
 && rm virtualgl.deb
+
+# Instalación de VirtualGL
+RUN wget -q -O virtualgl.deb https://sourceforge.net/projects/virtualgl/files/3.1/virtualgl_3.1_amd64.deb/download \
+    && dpkg -i virtualgl.deb || apt-get install -fy \
+    && rm virtualgl.deb
 
 # Configurar VirtualGL
 RUN /opt/VirtualGL/bin/vglserver_config -config +s +f -t
