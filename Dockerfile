@@ -56,6 +56,23 @@ RUN if [ -f /opt/VirtualGL/bin/vglserver_config ]; then \
         exit 1; \
     fi
 
+RUN apt-get update && apt-get install -y \
+    libxcb-icccm4 \
+    libxcb-image0 \
+    libxcb-keysyms1 \
+    libxcb-render-util0 \
+    libxcb-xinerama0 \
+    libxcb-xkb1 \
+    libxkbcommon-x11-0 \
+    libqt5gui5 \
+    libqt5widgets5 \
+    libqt5x11extras5 \
+    qt5-gtk-platformtheme \
+    libqt5dbus5 \
+    qttools5-dev-tools \
+    --no-install-recommends && rm -rf /var/lib/apt/lists/*
+
+
 
 # Copiar tu espacio de trabajo de simulación al contenedor
 # Asegúrate de que la estructura de directorios en tu máquina local refleje lo que espera el contenedor
