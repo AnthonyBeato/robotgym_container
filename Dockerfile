@@ -57,6 +57,7 @@ RUN if [ -f /opt/VirtualGL/bin/vglserver_config ]; then \
     fi
 
 RUN apt-get update && apt-get install -y \
+    libx11-xcb1 \
     libxcb-icccm4 \
     libxcb-image0 \
     libxcb-keysyms1 \
@@ -68,9 +69,8 @@ RUN apt-get update && apt-get install -y \
     libqt5widgets5 \
     libqt5x11extras5 \
     qt5-gtk-platformtheme \
-    libqt5dbus5 \
-    qttools5-dev-tools \
-    --no-install-recommends && rm -rf /var/lib/apt/lists/*
+    --no-install-recommends && apt-get clean && rm -rf /var/lib/apt/lists/*
+
 
 
 

@@ -17,6 +17,8 @@ export QT_QPA_PLATFORM=vnc
 export AUDIODEV=null
 export ALSA_CONFIG_PATH=/dev/null
 export XDG_RUNTIME_DIR=/tmp
+export QT_DEBUG_PLUGINS=1
+
 
 
 
