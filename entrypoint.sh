@@ -9,6 +9,7 @@ source /opt/ros/iron/setup.bash
 colcon build --symlink-install
 # source install/setup.bash
 
+export DISPLAY=:19
 # (Aquí irían comandos adicionales para lanzar tu simulación)
 vglrun gazebo &
 vglrun rviz2 &
@@ -18,9 +19,6 @@ export AUDIODEV=null
 export ALSA_CONFIG_PATH=/dev/null
 export XDG_RUNTIME_DIR=/tmp
 export QT_DEBUG_PLUGINS=1
-
-
-
 
 # Mantener el contenedor en ejecución si no se pasan comandos adicionales
 exec "$@"
