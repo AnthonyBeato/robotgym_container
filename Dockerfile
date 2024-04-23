@@ -92,5 +92,5 @@ RUN chmod +x /entrypoint.sh \
 USER $USERNAME
 WORKDIR /home/$USERNAME
 
-ENTRYPOINT ["/entrypoint.sh" ]
+ENTRYPOINT ["/bin/bash", "/entrypoint.sh" ]
 CMD ["bash"]
