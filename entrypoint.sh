@@ -16,6 +16,7 @@ vglrun rviz2 &
 export QT_QPA_PLATFORM=vnc
 export AUDIODEV=null
 export ALSA_CONFIG_PATH=/dev/null
+export XDG_RUNTIME_DIR=/tmp
 
 
 

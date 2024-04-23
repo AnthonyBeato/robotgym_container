@@ -1,4 +1,5 @@
 FROM osrf/ros:iron-desktop-full
+ENV XDG_RUNTIME_DIR=/tmp/runtime-ros
 
 # Instalando nano y vim 
 RUN apt-get update \
